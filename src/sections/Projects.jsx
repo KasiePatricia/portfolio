@@ -1,5 +1,7 @@
 import React from "react";
 import Pj from "../assets/images/pj.png";
+import Rest from "../assets/images/rest.png";
+import iValidate from "../assets/images/i-validate.png";
 
 const Projects = () => {
   return (
@@ -14,27 +16,31 @@ const Projects = () => {
           <div className="pj-content relative">
             <div>
               <p className="text-[0.813rem] my-2.5 text-mGreen">Project</p>
-              <h3 className="font-semibold font-size-title text-[#e6f1ff] md:text-[#989ca9] md:mb-5">
-                <a href="#" rel="noopener noreferrer" target="_blank">
-                  Halcyon Theme
+              <h3 className="font-semibold font-size-title text-[#e6f1ff]  md:mb-5">
+                <a
+                  href="https://rest-countries-api-topaz-three.vercel.app"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Rest Countries API
                 </a>
               </h3>
               <div>
                 <p className="relative z-[2] py-5 md:p-6 rounded bg-transparent md:bg-[#112240] md:box-showder-m">
-                  A minimal, dark blue theme for VS Code, Sublime Text, Atom,
-                  iTerm, and more. Available on Visual Studio Marketplace
-                  Package Control Atom Package Manager npm
+                  This is a project that shows all the countries of the world
+                  using an API call. It has features like light and dark mode.
+                  You can be able to search a country with it's name and by it's
+                  continent
                 </p>
               </div>
               <ul className="pj-tect-stack flex flex-wrap gap-3 relative z-[2] md:mt-6 mb-2.5 text-[0.813rem]">
-                <li className="mb-1.5">VS Code</li>
-                <li className="mb-1.5">Sublime Text</li>
-                <li className="mb-1.5">Atom</li>
-                <li className="mb-1.5">iTerm2</li>
+                <li className="mb-1.5">React</li>
+                <li className="mb-1.5">Vanilla CSS</li>
+                <li className="mb-1.5">Git/GitHub</li>
               </ul>
               <div className="pj-links flex gap-3 relative mt-2.5 text-[#ccd6f6]">
                 <a
-                  href="#"
+                  href="https://github.com/KasiePatricia/rest-countries-api"
                   aria-label="GitHub Link"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -56,7 +62,7 @@ const Projects = () => {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://rest-countries-api-topaz-three.vercel.app"
                   aria-label="External Link"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -88,7 +94,7 @@ const Projects = () => {
               target="_blank"
               className="w-full h-full rounded bg-mGreen"
             >
-              <img src={Pj} alt="Project Image" className="rounded h-full" />
+              <img src={Rest} alt="Project Image" className="rounded h-full" />
             </a>
           </div>
         </li>
@@ -96,27 +102,35 @@ const Projects = () => {
           <div className="pj-content relative">
             <div>
               <p className="text-[0.813rem] my-2.5 text-mGreen">Project</p>
-              <h3 className="font-semibold font-size-title text-[#e6f1ff] md:text-[#989ca9] md:mb-5">
-                <a href="#" rel="noopener noreferrer" target="_blank">
-                  Halcyon Theme
+              <h3 className="font-semibold font-size-title text-[#e6f1ff] md:mb-5">
+                <a
+                  href="https://i-validate-landing-page.vercel.app/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  i-Validate
                 </a>
               </h3>
               <div>
                 <p className="relative z-[2] py-5 md:p-6 rounded bg-transparent md:bg-[#112240] md:box-showder-m">
-                  A minimal, dark blue theme for VS Code, Sublime Text, Atom,
-                  iTerm, and more. Available on Visual Studio Marketplace
-                  Package Control Atom Package Manager npm
+                  The Idea Validation app is designed to help entrepreneurs and
+                  innovators validate their ideas and determine whether they
+                  have potential for success. The app offers various validation
+                  tests that provide insights and feedback based on the results.
+                  This is a cross-track collaborative Ada Project task.
                 </p>
               </div>
               <ul className="pj-tect-stack flex flex-wrap gap-3 relative z-[2] md:mt-6 mb-2.5 text-[0.813rem]">
-                <li className="mb-1.5">VS Code</li>
-                <li className="mb-1.5">Sublime Text</li>
-                <li className="mb-1.5">Atom</li>
-                <li className="mb-1.5">iTerm2</li>
+                <li className="mb-1.5">React</li>
+                <li className="mb-1.5">Bootstrap CSS</li>
+                <li className="mb-1.5">CSS</li>
+                <li className="mb-1.5">Firebase</li>
+                <li className="mb-1.5">EmailJS</li>
+                <li className="mb-1.5">Zustand</li>
               </ul>
               <div className="pj-links flex gap-3 relative mt-2.5 text-[#ccd6f6]">
                 <a
-                  href="#"
+                  href="https://github.com/ADA-Software-Engineering-Program/i-validate-landing-page"
                   aria-label="GitHub Link"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -138,7 +152,7 @@ const Projects = () => {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://i-validate-landing-page.vercel.app/"
                   aria-label="External Link"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -170,7 +184,11 @@ const Projects = () => {
               target="_blank"
               className="w-full h-full rounded bg-mGreen"
             >
-              <img src={Pj} alt="Project Image" className="rounded h-full" />
+              <img
+                src={iValidate}
+                alt="Project Image"
+                className="rounded h-full"
+              />
             </a>
           </div>
         </li>

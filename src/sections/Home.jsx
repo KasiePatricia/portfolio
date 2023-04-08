@@ -13,7 +13,7 @@ const Home = () => {
       </div>
       <div>
         <h3 className="font-size-m2 font-semibold text-[#8892b0] leading-[0.9]">
-          I build this for the web
+          I build things for the web
         </h3>
       </div>
       <div>
