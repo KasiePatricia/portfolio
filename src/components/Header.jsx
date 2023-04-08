@@ -64,7 +64,12 @@ const Header = () => {
           </ol>
         </div>
         <div className="navbar-end">
-          <a className="btn text-mGreen bg-transparent border-mGreen">Resume</a>
+          <a
+            href="https://www.canva.com/design/DAFfI894efQ/i53zZCtlSYpgnqI5QHHQHA/view?utm_content=DAFfI894efQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+            className="btn text-mGreen bg-transparent border-mGreen"
+          >
+            Resume
+          </a>
         </div>
       </nav>
     </header>

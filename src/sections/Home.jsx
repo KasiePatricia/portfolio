@@ -18,9 +18,9 @@ const Home = () => {
       </div>
       <div>
         <p className="mt-5 max-w-[33.75rem]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ex, id
-          est dolorum magnam animi tempore molestiae atque nihil cum. Lorem
-          ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptates.{" "}
+          I'm a software developer specializing in creating innovative solutions
+          for all your digital needs. I design and develop custom software
+          applications tailored to meet the specific needs of my clients.
         </p>
       </div>
       <div>

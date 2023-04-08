@@ -8,8 +8,8 @@ const Jobs = () => {
           Where I've Worked
         </h2>
       </div>
-      <div className="flex">
-        <div className="relative z-10 w-max">
+      <div className="flex flex-wrap md:flex-nowrap">
+        <div className="relative z-10 w-max py-2.5">
           <button className="flex items-center w-full relative h-[2.625rem] pb-[0.125rem] px-[1.25rem] border-s-2 border-s-[#233554] text-left whitespace-nowrap text-[0.813rem] hover:border-mGreen active:border-mGreen focus:border-mGreen hover:text-mGreen hover:outline-0 active:text-mGreen active:outline-0 focus:text-mGreen focus:outline-0 hover:bg-[#112243] focus:bg-[#112243]">
             <span>BetaKopa</span>
           </button>
@@ -38,18 +38,14 @@ const Jobs = () => {
             <p className="mb-6 text-[0.813rem]">January - April 2018</p>
             <div>
               <ul className="mt-2 left_0 tech relative ">
+                <li className="mb-2.5">Designing web applications</li>
                 <li className="mb-2.5">
-                  Worked with a team of three designers to build a marketing
-                  website and e-commerce platform for , an ambitious startup
-                  originating from Northeastern
+                  I work with backend engineers and designers to create
+                  functional web solutions.
                 </li>
                 <li className="mb-2.5">
-                  Helped solidify a brand direction for blistabloc that spans
-                  both packaging and web
-                </li>
-                <li className="mb-2.5">
-                  Interfaced with clients on a weekly basis, providing
-                  technological expertise
+                  Understanding the needs of the business and working with the
+                  team to deliver solutions that drive business growth.
                 </li>
               </ul>
             </div>

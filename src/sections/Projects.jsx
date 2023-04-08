@@ -14,24 +14,23 @@ const Projects = () => {
           <div className="pj-content relative">
             <div>
               <p className="text-[0.813rem] my-2.5 text-mGreen">Project</p>
-              <h3 className="font-semibold font-size-title text-[#989ca9] md:mb-5">
+              <h3 className="font-semibold font-size-title text-[#e6f1ff] md:text-[#989ca9] md:mb-5">
                 <a href="#" rel="noopener noreferrer" target="_blank">
                   Halcyon Theme
                 </a>
               </h3>
               <div>
-                <p className="relative z-[2] p-6 rounded bg-[#112240] box-showder-m">
+                <p className="relative z-[2] py-5 md:p-6 rounded bg-transparent md:bg-[#112240] md:box-showder-m">
                   A minimal, dark blue theme for VS Code, Sublime Text, Atom,
                   iTerm, and more. Available on Visual Studio Marketplace
                   Package Control Atom Package Manager npm
                 </p>
               </div>
-              <ul className="pj-tect-stack flex flex-wrap gap-3 relative z-[2] mt-6 mb-2.5 text-[0.813rem]">
+              <ul className="pj-tect-stack flex flex-wrap gap-3 relative z-[2] md:mt-6 mb-2.5 text-[0.813rem]">
                 <li className="mb-1.5">VS Code</li>
                 <li className="mb-1.5">Sublime Text</li>
                 <li className="mb-1.5">Atom</li>
                 <li className="mb-1.5">iTerm2</li>
-                <li className="mb-1.5">Hyper</li>
               </ul>
               <div className="pj-links flex gap-3 relative mt-2.5 text-[#ccd6f6]">
                 <a
@@ -89,7 +88,7 @@ const Projects = () => {
               target="_blank"
               className="w-full h-full rounded bg-mGreen"
             >
-              <img src={Pj} alt="Project Image" className="rounded" />
+              <img src={Pj} alt="Project Image" className="rounded h-full" />
             </a>
           </div>
         </li>
@@ -97,24 +96,23 @@ const Projects = () => {
           <div className="pj-content relative">
             <div>
               <p className="text-[0.813rem] my-2.5 text-mGreen">Project</p>
-              <h3 className="font-semibold font-size-title text-[#989ca9] md:mb-5">
+              <h3 className="font-semibold font-size-title text-[#e6f1ff] md:text-[#989ca9] md:mb-5">
                 <a href="#" rel="noopener noreferrer" target="_blank">
                   Halcyon Theme
                 </a>
               </h3>
               <div>
-                <p className="relative z-[2] p-6 rounded bg-[#112240] box-showder-m">
+                <p className="relative z-[2] py-5 md:p-6 rounded bg-transparent md:bg-[#112240] md:box-showder-m">
                   A minimal, dark blue theme for VS Code, Sublime Text, Atom,
                   iTerm, and more. Available on Visual Studio Marketplace
                   Package Control Atom Package Manager npm
                 </p>
               </div>
-              <ul className="pj-tect-stack flex flex-wrap gap-3 relative z-[2] mt-6 mb-2.5 text-[0.813rem]">
+              <ul className="pj-tect-stack flex flex-wrap gap-3 relative z-[2] md:mt-6 mb-2.5 text-[0.813rem]">
                 <li className="mb-1.5">VS Code</li>
                 <li className="mb-1.5">Sublime Text</li>
                 <li className="mb-1.5">Atom</li>
                 <li className="mb-1.5">iTerm2</li>
-                <li className="mb-1.5">Hyper</li>
               </ul>
               <div className="pj-links flex gap-3 relative mt-2.5 text-[#ccd6f6]">
                 <a
@@ -172,7 +170,7 @@ const Projects = () => {
               target="_blank"
               className="w-full h-full rounded bg-mGreen"
             >
-              <img src={Pj} alt="Project Image" className="rounded" />
+              <img src={Pj} alt="Project Image" className="rounded h-full" />
             </a>
           </div>
         </li>
@@ -180,24 +178,23 @@ const Projects = () => {
           <div className="pj-content relative">
             <div>
               <p className="text-[0.813rem] my-2.5 text-mGreen">Project</p>
-              <h3 className="font-semibold font-size-title text-[#989ca9] md:mb-5">
+              <h3 className="font-semibold font-size-title text-[#e6f1ff] md:text-[#989ca9] md:mb-5">
                 <a href="#" rel="noopener noreferrer" target="_blank">
                   Halcyon Theme
                 </a>
               </h3>
               <div>
-                <p className="relative z-[2] p-6 rounded bg-[#112240] box-showder-m">
+                <p className="relative z-[2] py-5 md:p-6 rounded bg-transparent md:bg-[#112240] md:box-showder-m">
                   A minimal, dark blue theme for VS Code, Sublime Text, Atom,
                   iTerm, and more. Available on Visual Studio Marketplace
                   Package Control Atom Package Manager npm
                 </p>
               </div>
-              <ul className="pj-tect-stack flex flex-wrap gap-3 relative z-[2] mt-6 mb-2.5 text-[0.813rem]">
+              <ul className="pj-tect-stack flex flex-wrap gap-3 relative z-[2] md:mt-6 mb-2.5 text-[0.813rem]">
                 <li className="mb-1.5">VS Code</li>
                 <li className="mb-1.5">Sublime Text</li>
                 <li className="mb-1.5">Atom</li>
                 <li className="mb-1.5">iTerm2</li>
-                <li className="mb-1.5">Hyper</li>
               </ul>
               <div className="pj-links flex gap-3 relative mt-2.5 text-[#ccd6f6]">
                 <a
@@ -255,7 +252,7 @@ const Projects = () => {
               target="_blank"
               className="w-full h-full rounded bg-mGreen"
             >
-              <img src={Pj} alt="Project Image" className="rounded" />
+              <img src={Pj} alt="Project Image" className="rounded h-full" />
             </a>
           </div>
         </li>
