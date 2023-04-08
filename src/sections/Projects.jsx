@@ -26,7 +26,7 @@ const Projects = () => {
                 </a>
               </h3>
               <div>
-                <p className="relative z-[2] py-5 md:p-6 rounded bg-transparent md:bg-[#112240] md:box-showder-m">
+                <p className="relative z-[2] py-5 md:p-6 rounded bg-transparent md:bg-[#112240] text-sm text-[#e6f181] md:box-showder-m">
                   This is a project that shows all the countries of the world
                   using an API call. It has features like light and dark mode.
                   You can be able to search a country with it's name and by it's
@@ -112,7 +112,7 @@ const Projects = () => {
                 </a>
               </h3>
               <div>
-                <p className="relative z-[2] py-5 md:p-6 rounded bg-transparent md:bg-[#112240] md:box-showder-m">
+                <p className="relative z-[2] py-5 md:p-6 rounded bg-transparent md:bg-[#112240] text-sm text-[#e6f181] md:box-showder-m">
                   The Idea Validation app is designed to help entrepreneurs and
                   innovators validate their ideas and determine whether they
                   have potential for success. The app offers various validation
@@ -206,7 +206,7 @@ const Projects = () => {
                 </a>
               </h3>
               <div>
-                <p className="relative z-[2] py-5 md:p-6 rounded bg-transparent md:bg-[#112240] md:box-showder-m">
+                <p className="relative z-[2] py-5 md:p-6 rounded bg-transparent md:bg-[#112240] md:box-showder-m text-sm text-[#e6f181]">
                   The website is all about Offering personalized training,
                   mentoring, jobs, and interview preparation tips to help corp
                   memebers succeed in after their service year.
