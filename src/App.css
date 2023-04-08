@@ -167,7 +167,7 @@ main.main {
   grid-area: 1 / 6 / -1 / -1;
   grid-column: 1 / -1;
   height: 100%;
-  opacity: 0.15;
+  opacity: 0.095;
   box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
 }
 .pj-main:nth-of-type(2n + 1) .pj-img {

@@ -1,7 +1,7 @@
 import React from "react";
-import Pj from "../assets/images/pj.png";
 import Rest from "../assets/images/rest.png";
 import iValidate from "../assets/images/i-validate.png";
+import Betakopa from "../assets/images/betakopa.png";
 
 const Projects = () => {
   return (
@@ -90,7 +90,7 @@ const Projects = () => {
           </div>
           <div className="pj-img relative z-[1]">
             <a
-              href="#"
+              href="https://rest-countries-api-topaz-three.vercel.app"
               target="_blank"
               className="w-full h-full rounded bg-mGreen"
             >
@@ -180,7 +180,7 @@ const Projects = () => {
           </div>
           <div className="pj-img relative z-[1]">
             <a
-              href="#"
+              href="https://i-validate-landing-page.vercel.app/"
               target="_blank"
               className="w-full h-full rounded bg-mGreen"
             >
@@ -196,27 +196,31 @@ const Projects = () => {
           <div className="pj-content relative">
             <div>
               <p className="text-[0.813rem] my-2.5 text-mGreen">Project</p>
-              <h3 className="font-semibold font-size-title text-[#e6f1ff] md:text-[#989ca9] md:mb-5">
-                <a href="#" rel="noopener noreferrer" target="_blank">
-                  Halcyon Theme
+              <h3 className="font-semibold font-size-title text-[#e6f1ff] md:mb-5">
+                <a
+                  href="https://betakopa.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  BetaKopa WebSite
                 </a>
               </h3>
               <div>
                 <p className="relative z-[2] py-5 md:p-6 rounded bg-transparent md:bg-[#112240] md:box-showder-m">
-                  A minimal, dark blue theme for VS Code, Sublime Text, Atom,
-                  iTerm, and more. Available on Visual Studio Marketplace
-                  Package Control Atom Package Manager npm
+                  The website is all about Offering personalized training,
+                  mentoring, jobs, and interview preparation tips to help corp
+                  memebers succeed in after their service year.
                 </p>
               </div>
               <ul className="pj-tect-stack flex flex-wrap gap-3 relative z-[2] md:mt-6 mb-2.5 text-[0.813rem]">
-                <li className="mb-1.5">VS Code</li>
-                <li className="mb-1.5">Sublime Text</li>
-                <li className="mb-1.5">Atom</li>
-                <li className="mb-1.5">iTerm2</li>
+                <li className="mb-1.5">Nuxt Js</li>
+                <li className="mb-1.5">CSS</li>
+                <li className="mb-1.5">Git/GitHub</li>
+                <li className="mb-1.5">Node Js</li>
               </ul>
               <div className="pj-links flex gap-3 relative mt-2.5 text-[#ccd6f6]">
                 <a
-                  href="#"
+                  href="https://github.com/betakopa/beta-kopa"
                   aria-label="GitHub Link"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -238,7 +242,7 @@ const Projects = () => {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://betakopa.com/"
                   aria-label="External Link"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -266,11 +270,15 @@ const Projects = () => {
           </div>
           <div className="pj-img relative z-[1]">
             <a
-              href="#"
+              href="https://betakopa.com/"
               target="_blank"
               className="w-full h-full rounded bg-mGreen"
             >
-              <img src={Pj} alt="Project Image" className="rounded h-full" />
+              <img
+                src={Betakopa}
+                alt="Project Image"
+                className="rounded h-full"
+              />
             </a>
           </div>
         </li>

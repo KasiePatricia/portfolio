@@ -8,9 +8,10 @@ const Contact = () => {
         Get In Touch
       </h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-        voluptatem fugiat rem accusamus aspernatur omnis rerum quia amet tempora
-        voluptatibus.
+        I am open to new opportunities and welcome any potential collaboration
+        or partnership. If you believe that I can be a valuable asset to your
+        team or project, please don't hesitate to reach out to me. I am excited
+        to explore how we can work together to achieve our goals.
       </p>
       <a
         href="mailto:ugwukasiep@gmail.com"
