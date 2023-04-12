@@ -2,7 +2,7 @@ import React from "react";
 
 const Jobs = () => {
   return (
-    <section className="max-w-2xl">
+    <section className="max-w-2xl pt-[6.25rem]" id="jobs">
       <div>
         <h2 className="num-h2 flex items-center w-full mb-10 relative whitespace-nowrap font-size-h2 ">
           Where I've Worked

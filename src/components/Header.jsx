@@ -45,21 +45,26 @@ const Header = () => {
               </li> */}
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl text-mGreen">Kassy</a>
+          <a
+            className="btn btn-ghost normal-case text-xl text-mGreen"
+            id="#home1"
+          >
+            Kassy
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ol className="menu menu-horizontal px-1 relative text-sm">
             <li>
-              <a>About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a>Experience</a>
+              <a href="#jobs">Experience</a>
             </li>
             <li>
-              <a>Work</a>
+              <a href="#projects">Work</a>
             </li>
             <li>
-              <a>Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ol>
         </div>

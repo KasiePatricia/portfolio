@@ -2,8 +2,8 @@ import React from "react";
 
 const SideLeft = () => {
   return (
-    <div className="fixed bottom-0 right-auto left-5 lg:left-10 w-10 z-[10] text-[#a8b2d1] hidden md:block">
-      <ul className="flex items-center flex-col icon-side">
+    <div className=" fixed bottom-0 right-auto left-5 lg:left-10 w-10 z-[10] text-[#a8b2d1] hidden md:block">
+      <ul className="side-left side flex items-center flex-col icon-side">
         <li className="p-2.5">
           <a
             href="https://github.com/KasiePatricia"

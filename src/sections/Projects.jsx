@@ -5,7 +5,7 @@ import Betakopa from "../assets/images/betakopa.png";
 
 const Projects = () => {
   return (
-    <section>
+    <section id="projects" className="pt-[6.25rem]">
       <div>
         <h2 className="num-h2 flex items-center w-full mb-10 relative whitespace-nowrap font-size-h2 font-semibold leading-[1.1] text-[#ccd6f6]">
           Some Things I've built

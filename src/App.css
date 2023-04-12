@@ -88,6 +88,20 @@ main.main {
   }
 }
 
+a:hover,
+a:focus {
+  color: #64ffda;
+}
+
+.side li {
+  transition: all 0.3s ease-in;
+}
+
+.side li:hover,
+.side li:focus {
+  transform: translateY(-3px);
+}
+
 .num-h2::before {
   position: relative;
   counter-increment: section 1;

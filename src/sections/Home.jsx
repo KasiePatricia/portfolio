@@ -2,7 +2,10 @@ import React from "react";
 
 const Home = () => {
   return (
-    <section className="flex flex-col min-h-screen items-start justify-center pt-[6.25rem] pb-0">
+    <section
+      className="flex flex-col min-h-screen items-start justify-center pt-[6.25rem] pb-0"
+      id="home1"
+    >
       <div>
         <h2 className="mb-4 text-mGreen font-normal font-size-m">
           Hi, my name is

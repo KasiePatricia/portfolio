@@ -137,15 +137,15 @@ const Footer = () => {
       </div>
       <div>
         <a
-          href="https://github.com/KasiePatricia"
+          href="https://github.com/KasiePatricia/portfolio"
           rel="noopener noreferrer"
           target="_blank"
           className="text-xs"
         >
-          <div className="mb-2">
-            <p>Built by Kasie Ugwu</p>
+          <div className="mb-2 ">
+            <p>Designed by Brittany Chiang &amp; Built by Kasie Ugwu</p>
           </div>
-          <div className="flex gap-4">
+          <div className="flex items-center justify-center gap-4">
             <span className="flex gap-2 items-center">
               <svg
                 viewBox="0 0 24 24"
@@ -160,7 +160,7 @@ const Footer = () => {
                 <title>Star</title>
                 <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
               </svg>
-              <span>6,081</span>
+              <span>6</span>
             </span>
             <span className="flex gap-2 items-center">
               <svg
@@ -179,7 +179,7 @@ const Footer = () => {
                 <circle cx="6" cy="18" r="3"></circle>
                 <path d="M18 9a9 9 0 0 1-9 9"></path>
               </svg>
-              <span>2,877</span>
+              <span>2</span>
             </span>
           </div>
         </a>
