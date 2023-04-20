@@ -28,7 +28,14 @@ const Home = () => {
       </div>
       <div>
         <button className="btn text-mGreen bg-transparent border-mGreen mt-8">
-          Get in touch
+          <a
+            href="mailto:ugwukasiep@gmail.com"
+            rel="noopener noreferrer"
+            target="_blank"
+            // className="btn text-mGreen bg-transparent border-mGreen mt-12"
+          >
+            Get in touch
+          </a>
         </button>
       </div>
     </section>
