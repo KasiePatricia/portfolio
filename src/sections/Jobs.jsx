@@ -35,7 +35,7 @@ const Jobs = () => {
                 </a>
               </span>
             </h3>
-            <p className="mb-6 text-[0.813rem]">January - April 2018</p>
+            <p className="mb-6 text-[0.813rem]">January - April 2023</p>
             <div>
               <ul className="mt-2 left_0 tech relative ">
                 <li className="mb-2.5">Designing web applications</li>
