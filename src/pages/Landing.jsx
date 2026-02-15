@@ -1,4 +1,3 @@
-import React from "react";
 import Home from "../sections/Home";
 import SideLeft from "../sections/SideLeft";
 import SideRight from "../sections/SideRight";

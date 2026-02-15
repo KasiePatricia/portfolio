@@ -27,16 +27,16 @@ const Header = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a>Experience</a>
+                <a href="#jobs">Experience</a>
               </li>
               <li>
-                <a>Work</a>
+                <a href="#projects">Work</a>
               </li>
               <li>
-                <a>Contact</a>
+                <a href="#contact">Contact</a>
               </li>
               {/* <li>
                 <a className="btn text-mGreen bg-transparent border-mGreen">

@@ -94,8 +94,8 @@ const OtherProjects = () => {
               </h3>
               <div>
                 <p className="text-[#a8b2d1]">
-                  This app is designed to help you stay organized and on top of
-                  your tasks.
+                  This app helps you stay organized and on top of your daily
+                  tasks.
                 </p>
               </div>
             </header>
@@ -190,9 +190,8 @@ const OtherProjects = () => {
               </h3>
               <div>
                 <p className="text-[#a8b2d1]">
-                  This app shows the list of star wars movies which was fetched
-                  from an API. A wonderful loader was added to make user
-                  experince awesome.
+                  This app lists Star Wars movies fetched from an API, with a
+                  custom loader that improves the overall experience.
                 </p>
               </div>
             </header>
@@ -288,9 +287,8 @@ const OtherProjects = () => {
               </h3>
               <div>
                 <p className="text-[#a8b2d1]">
-                  It's an expenses chart that shows the correct amount used each
-                  day and it shows optimal layout for the content depending on
-                  their device's screen size
+                  This expenses chart visualizes daily spending and adapts its
+                  layout for different screen sizes.
                 </p>
               </div>
             </header>
@@ -385,9 +383,8 @@ const OtherProjects = () => {
               </h3>
               <div>
                 <p className="text-[#a8b2d1]">
-                  Therapyly is a mental health and wellness platform that
-                  connects you with licensed therapists for online counseling
-                  sessions.
+                  Therapyly is a mental health platform that connects users with
+                  licensed therapists for online counseling.
                 </p>
               </div>
             </header>
